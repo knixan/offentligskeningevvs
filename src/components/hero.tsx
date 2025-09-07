@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
       <h1 className="mb-4 text-6xl font-extrabold tracking-tight text-red-700">
         Din lokala expert på VVS!
       </h1>
-      <p className="mb-6 text-4xl font-extrabold text-sky-600">
+      <p className="mb-6 text-4xl font-semibold text-sky-700">
         Små i storlek – stora på service
       </p>
       <Button asChild>
