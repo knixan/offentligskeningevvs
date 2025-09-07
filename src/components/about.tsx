@@ -4,7 +4,7 @@ import Image from "next/image";
 const About: React.FC = () => (
   <section
     id="omoss"
-    className="flex flex-col md:flex-row items-center justify-between p-8 rounded-2xl max-w-6xl mx-auto my-10 bg-card shadow-md border border-border"
+    className="flex flex-col md:flex-row items-center justify-between p-8 rounded-2xl max-w-6xl mx-auto my-10 bg-card shadow-md border border-border m-4"
   >
     <div className="w-full md:w-1/2 md:pr-8 mb-8 md:mb-0 text-left">
       <h2 className="text-2xl font-bold text-sky-700 mb-4">Om oss</h2>
