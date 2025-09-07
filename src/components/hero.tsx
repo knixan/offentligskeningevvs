@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
       priority
     />
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/100" />
+    <div className="absolute inset-0 bg-black/10" />
 
     {/* Text */}
     <div className="absolute inset-0 flex flex-col items-center justify-start pt-10 text-center">
