@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
 
     {/* Text */}
     <div className="absolute inset-0 flex flex-col items-center justify-start pt-10 text-center">
-      <h1 className="mb-4 text-6xl font-extrabold tracking-tight text-red-700">
+      <h1 className="mb-4 text-6xl font-extrabold tracking-tight text-red-800">
         Din lokala expert på VVS!
       </h1>
       <p className="mb-6 text-4xl font-semibold text-sky-700">
