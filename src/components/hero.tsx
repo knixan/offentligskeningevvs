@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
       src="/images/skeningebuss2.png"
       alt="Skeninge VVS Rörbuss"
       fill
-      className="h-full object-contain w-full"
+      className="h-full object-contain w-full rounded-lg shadow-lg"
       priority
     />
     {/* Overlay */}
