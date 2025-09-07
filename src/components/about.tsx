@@ -32,7 +32,7 @@ const About: React.FC = () => (
         alt="Teamet från Skeninge VVS"
         width={600}
         height={400}
-        className="rounded-lg shadow-lg"
+        className="rounded-lg "
        
       />
     </div>
