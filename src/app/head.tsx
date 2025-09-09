@@ -13,8 +13,10 @@ export default function Head() {
         name="keywords"
         content="VVS, Skänninge, Mjölby, Linköping, Boxholm, Tranås, Vadstena, Motala, Vädersta, Vikingstad, Mantorp, Rörmokare, Badrumsrenovering, Värmepumpar, Golvvärme, VVS-installation, VVS-tjänster"
       />
-      <meta name="author" content="Skeninge VVS AB" />
-      <meta name="robots" content="index, follow" />
+
+  <meta name="author" content="Skeninge VVS AB" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://skeningevvs.se/" />
 
       <meta
         property="og:title"

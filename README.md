@@ -1,39 +1,46 @@
 # 💧 Skeninge VVS AB – Personlig hemsida
 
-En modern, responsiv och personlig hemsida för **Skeninge VVS AB**, ett familjeägt VVS-företag i Skänninge med lång erfarenhet av rörinstallationer, badrumsrenoveringar och värmesystem.  
-Projektet är byggt med **Next.js 13 (App Router)**, **TypeScript**, **TailwindCSS** och **shadcn/ui** för att skapa en stilren, användarvänlig och lättnavigerad webbplats.
+En modern, responsiv och personlig hemsida för **Skeninge VVS AB**, ett familjeägt VVS-företag i Skänninge med lång erfarenhet av rörinstallationer, badrumsrenoveringar och värmesystem.
+
+Byggd med **Next.js 13 (App Router)**, **TypeScript**, **Tailwind CSS** och **shadcn/ui** för att skapa en stilren, användarvänlig och lättnavigerad webbplats.
 
 ---
 
 ## 🚀 Funktioner
 
-- **Responsiv design** – fungerar på alla enheter (mobil, surfplatta och desktop)  
-- **Ljust & mörkt tema** – automatisk anpassning efter systeminställning  
-- **Startsida med hero-sektion** – tydligt budskap och CTA (Kontakta oss)  
-- **Om oss-sektion** – företagets historia, värderingar och erfarenhet  
-- **Tjänster-sektion** – ikonbaserade kort med beskrivningar av VVS-tjänster  
-- **Kontaktsektion** – personalpresentation med bilder, telefonnummer och mail  
-- **Google Maps-integration** – visar företagets besöksadress  
-- **Footer** – med kontaktinformation, adress och logotyp  
-- **SEO-optimerad** – metadata, OpenGraph och beskrivningar för sökmotorer  
+- **Responsiv design** – fungerar sömlöst på mobil, surfplatta och desktop
+- **Ljust & mörkt tema** – via `next-themes`, anpassar sig automatiskt efter systeminställning
+- **Modern UI** – tillgängliga och estetiskt tilltalande komponenter via `shadcn/ui`
+- **Startsida med hero-sektion** – tydligt budskap och Call To Action (CTA)
+- **Om oss** – företagets historia, värderingar och expertis
+- **Tjänster** – ikonbaserade kort som beskriver VVS-tjänsterna
+- **Kontakt** – personalpresentation med bilder, telefonnummer & e-postadresser
+- **Google Maps-integration** – visar besöksadress direkt på sidan
+- **Footer** – logotyp, adress och kontaktinfo samlad
+- **SEO-optimerad** – metadata, OpenGraph och beskrivningar för bättre synlighet
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Bilder & Mockups
 
-### 💻 Desktop
-![Screenshot av desktop-versionen](./public/images/screenshot-desktop.png)
+### Mockup
 
-### 📱 Mobile
-![Screenshot av mobil-versionen](./public/images/screenshot-mobile.png)
+![Mockup – Skeninge VVS](public/mockup-skeningevvs.jpg)
 
----
+### Exempelbilder
 
-## 📱 Mockup (Alla enheter)
+![Projektbild 1](public/image1.png)  
+![Projektbild 2](public/image2.png)
 
-Här kan du lägga in en mockup-bild på hur hemsidan ser ut i **mobil, surfplatta och desktop**.  
-Exempel:  
-![All Devices Mockup](./public/images/mockup-all-devices.png)
+### Företagsbilder
+
+| Bosse                             | Kristian                                | Nina                            |
+| --------------------------------- | --------------------------------------- | ------------------------------- |
+| ![Bosse](public/images/bosse.png) | ![Kristian](public/images/kristian.png) | ![Nina](public/images/nina.png) |
+
+| Tyson                             | Buss 1                                           | Buss 2                                         |
+| --------------------------------- | ------------------------------------------------ | ---------------------------------------------- |
+| ![Tyson](public/images/tyson.png) | ![Buss](public/images/skeningevvs-frontbuss.png) | ![Buss vit](public/images/skeningevvs-vit.png) |
 
 ---
 
@@ -41,78 +48,87 @@ Exempel:
 
 ```bash
 .
-├── public
+├── public/
 │   ├── images/
 │   │   ├── bosse.png
 │   │   ├── kristian.png
+│   │   ├── kristiantysonbosse.png
 │   │   ├── nina.png
-│   │   ├── tyson.png
 │   │   ├── skeningebuss2.png
 │   │   ├── skeningevvs-frontbuss.png
 │   │   ├── skeningevvs-vit.png
-│   │   ├── SkeningeVVS.png
-│   │   └── kristiantysonbosse.png
-├── src
+│   │   ├── skeningevvs.png
+│   │   └── tyson.png
+│   ├── image1.png
+│   ├── image2.png
+│   └── mockup-skeningevvs.jpg
+├── src/
 │   ├── app/
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   ├── head.tsx
+│   │   ├── favicon.ico
 │   │   ├── globals.css
-│   │   └── favicon.ico
+│   │   ├── head.tsx
+│   │   ├── layout.tsx
+│   │   └── page.tsx
 │   ├── components/
-│   │   ├── navbar.tsx
-│   │   ├── hero.tsx
+│   │   ├── ui/
 │   │   ├── about.tsx
-│   │   ├── services.tsx
 │   │   ├── contact.tsx
 │   │   ├── footer.tsx
+│   │   ├── hero.tsx
 │   │   ├── Logo.tsx
+│   │   ├── navbar.tsx
+│   │   ├── services.tsx
 │   │   ├── theme-provider.tsx
 │   │   └── toggle-theme-button.tsx
-│   └── components/ui/ (shadcn/ui-komponenter)
-├── package.json
-├── tsconfig.json
-├── next.config.ts
-├── postcss.config.mjs
+│   └── lib/
+├── .gitignore
+├── components.json
 ├── eslint.config.mjs
-└── README.md
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
 🛠️ Teknisk stack
-Next.js 13 (App Router) – React-ramverk för server-side rendering & statisk generering
+Next.js 13 (App Router) – SSR & statisk generering
 
-TypeScript – Typsäker kod
+TypeScript – typsäker och robust kodutveckling
 
-TailwindCSS – Utility-first CSS för snabb styling
+Tailwind CSS – utility-first CSS för snabb styling
 
-shadcn/ui – Tillgängliga UI-komponenter
+shadcn/ui – tillgängliga & anpassningsbara UI-komponenter
 
-Lucide Icons – Ikoner för tjänstekorten
+Lucide Icons – ikonbibliotek
 
-next-themes – Hantering av mörkt & ljust tema
+next-themes – hantering av mörkt/ljust tema
 
-Google Maps Embed – Integrerad karta i kontaktsektionen
+Google Maps Embed – integrerad karta
 
-⚙️ Installation & utveckling
-Klona projektet:
-
+⚙️ Installation & Utveckling
+1. Klona projektet
 bash
+Kopiera kod
 git clone https://github.com/knixan/skeningevvsab.git
-cd skeninge-vvs
-Installera beroenden:
-
+cd skeningevvsab
+2. Installera beroenden
 bash
+Kopiera kod
 npm install
-Starta utvecklingsserver:
-
+3. Starta utvecklingsservern
 bash
+Kopiera kod
 npm run dev
-Öppna i webbläsaren:
-
+4. Öppna i webbläsaren
 arduino
-
+Kopiera kod
 http://localhost:3000
 🌍 Live-demo
-https://skeningevvs.se
+👉 https://skeningevvs.se
 
 👩‍💻 Utvecklare
-Projektet är utvecklat av:
-Josefine Eriksson – Fullstack utvecklare, Graphic/webb Designer & UI/UX Designer
+Josefine Eriksson
+Fullstack utvecklare, Grafisk/Webbdesigner & UI/UX Designer
+🌐 https://kodochdesign.se
+```

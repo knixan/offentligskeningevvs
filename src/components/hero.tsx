@@ -34,24 +34,24 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Desktop */}
- <div className="hidden md:flex h-screen justify-center items-center bg-opacity-100">
+      <div className="hidden md:flex h-screen justify-center items-center bg-opacity-100">
   <div className="relative h-full w-full">
     <Image
       src="/images/skeningebuss2.png"
       alt="Skeninge VVS Rörbuss"
       fill
-      className="h-full object-contain w-full "
+      className="h-full object-contain w-full"
       priority
     />
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/10" />
+    <div className="absolute inset-0 bg-black/30" />
 
     {/* Text */}
     <div className="absolute inset-0 flex flex-col items-center justify-start pt-10 text-center">
-      <h1 className="mb-4 text-6xl font-extrabold tracking-tight text-red-800">
+      <h1 className="mb-4 text-6xl font-extrabold tracking-tight text-red-700">
         Din lokala expert på VVS!
       </h1>
-      <p className="mb-6 text-4xl font-semibold text-sky-700">
+      <p className="mb-6 text-4xl font-extrabold text-gray-100">
         Små i storlek – stora på service
       </p>
       <Button asChild>
@@ -66,6 +66,8 @@ const Hero: React.FC = () => {
     </div>
   </div>
 </div>
+
+
     </>
   );
 };
