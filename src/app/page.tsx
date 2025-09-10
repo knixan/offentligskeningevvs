@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Skeninge VVS AB | VVS-tjänster i Östergötland med fokus på Skänninge och Mjölby.
+  title: "Skeninge VVS AB | VVS-tjänster i Östergötland med fokus på Skänninge, Mjölby och Vadstena med omnejd.
   description:
     "Skeninge VVS AB erbjuder professionella VVS-tjänster i Östergötland med fokus på Skänninge, Mjölby, Vadstena och Vikingstad med omnejd. Kontakta oss för installation, service och reparation.",
   keywords: [
@@ -20,9 +20,9 @@ export const metadata = {
     "värmepumpar",
   ],
   openGraph: {
-    title: "Skeninge VVS AB | VVS-tjänster i Skeninge och Östergötland",
+    title: "Skeninge VVS AB | VVS-tjänster i  och Östergötland",
     description:
-      "Skeninge VVS AB erbjuder professionella VVS-tjänster i Skeninge och hela Östergötland.",
+      "Skeninge VVS AB erbjuder professionella VVS-tjänster i Östergötland med fokus på Skänninge, Mjölby och Vadstena med omnejd.",
     url: "https://skeningevvs.se",
     siteName: "Skeninge VVS AB",
     images: [
@@ -80,5 +80,6 @@ export default function Page() {
     </>
   );
 }
+
 
 
