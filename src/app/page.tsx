@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Skeninge VVS AB | VVS-tjänster i Östergötland med fokus på Skänninge, Mjölby och Vadstena med omnejd.
+  title: "Skeninge VVS AB | VVS-tjänster i Östergötland med fokus på Skänninge, Mjölby och Vadstena med omnejd.",
   description:
     "Skeninge VVS AB erbjuder professionella VVS-tjänster i Östergötland med fokus på Skänninge, Mjölby, Vadstena och Vikingstad med omnejd. Kontakta oss för installation, service och reparation.",
   keywords: [
