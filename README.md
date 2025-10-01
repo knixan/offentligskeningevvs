@@ -9,7 +9,7 @@ Detta repository innehåller källkoden till Skeninge VVS AB:s företagswebbplat
 - Projekt: Skeninge VVS AB — företagssida
 - Teknisk grund: Next.js (App Router), TypeScript, Tailwind CSS
 - Drift: För närvarande distribuerad via Vercel
-- Live: https://skeningevvs.se (kamera/hostning kan variera)
+- Live: https://skeningevvs.se 
 
 ## Högnivåfunktioner
 
@@ -97,3 +97,4 @@ Se Git-historiken för ändringar. För större releaser, överväg att lägga t
 ```
 
 ```
+
